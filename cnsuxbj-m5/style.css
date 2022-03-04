@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.block {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* Шапка */
+
+.header {
+    position: absolute;
+    width: 100%;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.header-logo {
+    margin: 0;
+    color: #000;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+    margin-left: 25px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #512451;
+    color: #fff;
+}
